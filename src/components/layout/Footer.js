@@ -7,8 +7,8 @@ function Footer () {
          <Typography
           component='p'
           variant='p'
-          bgcolor="#f7f7f7"
-          color="primary"
+          bgcolor="#4caf50"
+          color="#fff"
           textAlign="center"
           padding="10px"
           mt={10} 

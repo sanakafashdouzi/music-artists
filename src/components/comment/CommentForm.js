@@ -36,7 +36,7 @@ function CommentForm({slug}) {
     return (
         <Grid container sx={{boxShadow:"rgba(0,0,0,0.1) 0px 4px 12px" , py:1 , mt:5 , borderRadius:4 }} >
             <Grid item xs={12} m={2} >
-              <Typography component="p" variant='h6' fontWeight={400} color="primary" >
+              <Typography component="p" variant='h6' fontWeight={400} color="#4caf50" >
                 فرم ارسال کامنت
               </Typography>
             </Grid>
@@ -65,8 +65,8 @@ function CommentForm({slug}) {
             </Grid>
             <Grid item xs={12} m={2}>
              {
-                loading ? (<Button variant='contained' disabled> ...درحال ارسال</Button>) :
-                 (<Button variant='contained' onClick={sendHandler}>ارسال</Button>)
+                loading ? (<Button color='#4caf50' variant='contained' disabled> ...درحال ارسال</Button>) :
+                 (<Button variant='contained'  onClick={sendHandler}>ارسال</Button>)
              }
             </Grid>
             <ToastContainer />

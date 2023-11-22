@@ -27,7 +27,7 @@ function BlogPage() {
         <Container>
          <Grid container maxWidth="lg">
            <Grid item xs={12} mt={9} display="flex" justifyContent="space-between">
-            <Typography component='h2' variant='h4' fontWeight={400} color="primary">
+            <Typography component='h2' variant='h4' fontWeight={400} color="#357a38">
                 {data.post.title}
             </Typography>
             <ArrowBackIcon onClick={() => navigate(-1)} />
@@ -45,7 +45,7 @@ function BlogPage() {
              <Typography component="p" variant='h5' fontWeight={300}>
                {data.post.author.name}
              </Typography>
-             <Typography component="p" variant='p' color="text.secondary">
+             <Typography component="p" variant='p' color="#4caf50">
                {data.post.author.field}
              </Typography>
             </Box>

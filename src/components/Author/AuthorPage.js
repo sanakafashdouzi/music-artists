@@ -34,7 +34,7 @@ function AuthorPage() {
            <Typography component="h3" variant='h5' mt={4} fontWeight={500} >
               {author.name}
            </Typography>
-           <Typography component="p" variant='h5' mt={2} color="text.secondary" >
+           <Typography component="p" variant='h5' mt={2} color="#4caf50" >
               {author.field}
            </Typography>
             </Grid>

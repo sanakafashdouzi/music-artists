@@ -24,7 +24,7 @@ function Authors() {
                 style={{textDecoration:"none" , 
                  display:"flex", alignItems:"center"}} >
              <Avatar src={author.avatar.url} sx={{marginLeft: 2 }} />
-             <Typography component="p" variant='p' color='text.secondary' >
+             <Typography component="p" variant='p' color='#4caf50' >
                 {author.name}
              </Typography>
             </Link>

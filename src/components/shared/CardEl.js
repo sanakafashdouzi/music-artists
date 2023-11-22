@@ -15,7 +15,7 @@ function CardEl({title ,slug ,coverPhoto ,author}) {
            title={<Typography
               component="p"
               variant='p'
-              color="#1565c0" >{author.name}
+              color="#357a38" >{author.name}
               </Typography>
             }
           />
@@ -28,14 +28,14 @@ function CardEl({title ,slug ,coverPhoto ,author}) {
             alt={slug}
            />
           <CardContent>
-            <Typography component="h3" variant='h6' color="#0288d1" >
+            <Typography component="h3" variant='h6' color="#357a38" >
                 {title}</Typography>
           </CardContent>
           <Divider variant='middle' sx={{margin:"10px"}} />
           <CardActions>
-            <Link to={`/blogs/${slug}`} style={{textDecoration:"none" , width:"100%"}} >
+            <Link to={`/blogs/${slug}`} style={{textDecoration:"none" , width:"100%" }} >
             <Button variant='outlined' size='small'
-             sx={{width:"100%" , borderRadius: 3}} >
+             sx={{width:"100%" ,fontSize:"15px" , borderRadius: 3 ,border: "2px solid #357a38", color:"#357a38" }} >
              مطالعه مقاله 
             </Button>
             </Link>
